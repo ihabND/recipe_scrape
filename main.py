@@ -12,7 +12,7 @@ USER_AGENT = (
     "Chrome/141.0.0.0 Safari/537.36"
 )
 
-all_links_list = []
+all_links_list = set()
 
 def write_recipe_links_to_files(all_links_list):
     try:
@@ -46,7 +46,7 @@ with sync_playwright() as p:
                 if href is None:
                     continue
                 if href not in all_links_list:
-                    all_links_list.append(href)
+                    all_links_list.add(href)
                     context = browser.new_context(
                         locale="en-US",
                         user_agent=USER_AGENT,
@@ -71,8 +71,7 @@ with sync_playwright() as p:
                         inner_links_list = inner_links_div.find_all("a")
                         for inner_link in inner_links_list:
                             inner_href = inner_link.get("href")
-                            if inner_href is not None and inner_href not in all_links_list:
-                                all_links_list.append(inner_href)
+                            all_links_list.add(inner_href)
 
                         write_recipe_links_to_files(all_links_list)
                         
