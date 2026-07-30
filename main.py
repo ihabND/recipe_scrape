@@ -56,7 +56,7 @@ with sync_playwright() as p:
                     )
                     page = context.new_page()
                     try:
-                        period = uniform(0.5, 1.5)
+                        period = uniform(0.3, 0.5)
                         sleep(period)
                         inner_response = page.goto(href, wait_until="domcontentloaded", timeout=60000)
                         print("URL:", href, "Status:", inner_response.status if inner_response else "No response")
@@ -70,8 +70,9 @@ with sync_playwright() as p:
                             continue
                         inner_links_list = inner_links_div.find_all("a")
                         for inner_link in inner_links_list:
-                            if href not in all_links_list:
-                                all_links_list.append(href)
+                            inner_href = inner_link.get("href")
+                            if inner_href is not None and inner_href not in all_links_list:
+                                all_links_list.append(inner_href)
 
                         write_recipe_links_to_files(all_links_list)
                         
