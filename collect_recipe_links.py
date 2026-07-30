@@ -46,6 +46,6 @@ with open("data/individual_recipe_link.txt", "a", encoding="utf-8") as file:
                 if context:
                     context.close()
 
-with open("recipes_FINAL.txt", "w", encoding="utf-8") as file:
+with open("data/recipes_FINAL.txt", "w", encoding="utf-8") as file:
     for link in separate_recipe_links:
         file.write(link + "\n")

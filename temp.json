@@ -1,0 +1,272 @@
+[
+   {
+      "@context":"http://schema.org",
+      "@type":[
+         "Recipe",
+         "NewsArticle"
+      ],
+      "headline":"Salmon Sushi Bake",
+      "datePublished":"2025-01-09T17:33:19-05:00",
+      "dateModified":"2025-10-28T06:22:54-04:00",
+      "author":[
+         {
+            "@type":"Person",
+            "name":"Nicole McLaughlin",
+            "url":"https://www.allrecipes.com/author/nicole-mclaughlin/"
+         }
+      ],
+      "description":"This sushi bake layers tenders sushi rice, creamy baked salmon and crab filling, and crunchy seaweed for a crowd-pleasing sushi-inspired casserole.",
+      "image":{
+         "@type":"ImageObject",
+         "url":"https://www.allrecipes.com/thmb/kjGkxr4RLBnfSNfOytFc7atQrwA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8765434_Salmon-Sushi-Bake_Dotdash-Meredith-Food-Studios_4x3-80e79d07143e42f091a3e1057e72a607.jpg",
+         "height":1125,
+         "width":1500
+      },
+      "video":{
+         "@type":"VideoObject",
+         "contentUrl":"https://content.jwplatform.com/videos/mVsgvHEK-K3AjnAEN.mp4",
+         "description":"This easy, delicious recipe combines all the flavors of salmon sushi into a comforting, baked casserole that’s perfect for sharing. In this video, Nicole will guide you through every step of making this TikTok-famous Sushi Bake—from prepping the ingredients to layering and baking it to perfection. It's simple to make, full of flavor, and guaranteed to be a hit on your dinner table!",
+         "duration":"PT6M39S",
+         "name":"How to Make Sushi Bake ",
+         "thumbnailUrl":"https://cdn.jwplayer.com/v2/media/mVsgvHEK/thumbnails/2KTnAIMq.jpg?width=1280",
+         "uploadDate":"2025-01-09T11:36:01-05:00"
+      },
+      "publisher":{
+         "@type":"Organization",
+         "name":"Allrecipes",
+         "url":"https://www.allrecipes.com",
+         "logo":{
+            "@type":"ImageObject",
+            "url":"https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width":112,
+            "height":112
+         },
+         "brand":"Allrecipes",
+         "publishingPrinciples":"https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+         "sameAs":[
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+         ]
+      },
+      "name":"Salmon Sushi Bake",
+      "aggregateRating":{
+         "@type":"AggregateRating",
+         "ratingValue":"5",
+         "ratingCount":"5"
+      },
+      "cookTime":"PT35M",
+      "keywords":"publisher-tested",
+      "nutrition":{
+         "@type":"NutritionInformation",
+         "calories":"649 kcal",
+         "carbohydrateContent":"25 g",
+         "cholesterolContent":"99 mg",
+         "fiberContent":"4 g",
+         "proteinContent":"25 g",
+         "saturatedFatContent":"12 g",
+         "sodiumContent":"1447 mg",
+         "sugarContent":"6 g",
+         "fatContent":"50 g",
+         "unsaturatedFatContent":"0 g"
+      },
+      "prepTime":"PT20M",
+      "recipeCategory":[
+         "Dinner",
+         "Entree"
+      ],
+      "recipeCuisine":[
+         "American"
+      ],
+      "recipeIngredient":[
+         "1 1/2 pound salmon filet",
+         "1 1/2 teaspoons kosher salt, divided",
+         "1/4 teaspoon pepper",
+         "1/2 teaspoon lemon pepper",
+         "1/4 teaspoon garlic powder",
+         "1/4 teaspoon paprika",
+         "2 teaspoons olive oil",
+         "2 cups sushi rice, rinsed",
+         "2 3/4 cups water",
+         "2 teaspoons rice vinegar",
+         "8 ounces imitation crab, shredded and chopped",
+         "8 ounces cream cheese, softened",
+         "1 cup kewpie mayonnaise, divided",
+         "3 Tablespoons sriracha, plus more to taste, divided",
+         "2 teaspoons soy sauce",
+         "3 large sheets nori (roasted seaweed), about .25 ounces",
+         "2 teaspoons furikake optional",
+         "2 teaspoons everything bagel seasoning",
+         "2 teaspoons lime juice",
+         "Sliced green onions and diced avocado for serving",
+         "avocado"
+      ],
+      "recipeInstructions":[
+         {
+            "@type":"HowToStep",
+            "text":"Preheat the oven to 450 degrees F (230 degrees C). Line a baking sheet with parchment or foil."
+         },
+         {
+            "@type":"HowToStep",
+            "text":"Place salmon on the baking sheet; sprinkle with 1/2 teaspoon salt, pepper, lemon pepper, garlic powder, and paprika. Drizzle oil over salmon."
+         },
+         {
+            "@type":"HowToStep",
+            "text":"Bake in the preheated oven until salmon just starts to flake easily with a fork, 10 to 12 minutes. Let cool slightly before breaking up into small pieces. Reduce oven temperature to 400 degrees F (200 degrees C)."
+         },
+         {
+            "@type":"HowToStep",
+            "text":"Meanwhile, combine rice, water, and remaining salt in a sauce pan. Bring to a boil, stir once, reduce heat to low, and cover. Cook until liquid is absorbed and rice is tender, 12 to 14 minutes. Transfer to a large bowl and fluff with a fork.  Stir in rice vinegar and let cool."
+         },
+         {
+            "@type":"HowToStep",
+            "text":"When salmon is cooled, add it to a bowl with crab, cream cheese, 1/2 cup mayonnaise, 1 ½ tablespoons Sriracha, and soy sauce, and stir to combine."
+         },
+         {
+            "@type":"HowToStep",
+            "text":"Lightly grease a 9x13-inch baking dish; add rice and press into an even layer. Crush nori sheets over rice and sprinkle with furikake. Spread salmon mixture over seaweed; sprinkle evenly with everything seasoning."
+         },
+         {
+            "@type":"HowToStep",
+            "text":"Bake at 400 degrees F (200 degrees C) until browned around the edges, about 25 minutes."
+         },
+         {
+            "@type":"HowToStep",
+            "image":[
+               {
+                  "@type":"ImageObject",
+                  "url":"https://www.allrecipes.com/thmb/kjGkxr4RLBnfSNfOytFc7atQrwA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8765434_Salmon-Sushi-Bake_Dotdash-Meredith-Food-Studios_4x3-80e79d07143e42f091a3e1057e72a607.jpg"
+               }
+            ],
+            "text":"Stir remaining 1/2 cup mayonnaise, remaining 1 ½ tablespoons Sriracha, and lime juice together. Drizzle over casserole before serving; top with green onions and avocado."
+         }
+      ],
+      "recipeYield":[
+         "8",
+         "1 (9x13-inch) casserole"
+      ],
+      "totalTime":"PT70M",
+      "review":[
+         {
+            "@type":"Review",
+            "reviewRating":{
+               "@type":"Rating",
+               "ratingValue":"5"
+            },
+            "author":{
+               "@type":"Person",
+               "name":"Oscar"
+            },
+            "reviewBody":"Decreased a little mayo and cream cheese to try to be healthier. Still very good."
+         },
+         {
+            "@type":"Review",
+            "reviewRating":{
+               "@type":"Rating",
+               "ratingValue":"5"
+            },
+            "author":{
+               "@type":"Person",
+               "name":"victoriagary"
+            },
+            "reviewBody":"Very good!! It’s part of my meal prep plan",
+            "datePublished":"2026-04-16T22:55:27.851Z"
+         },
+         {
+            "@type":"Review",
+            "reviewRating":{
+               "@type":"Rating",
+               "ratingValue":"5"
+            },
+            "author":{
+               "@type":"Person",
+               "name":"Debra Lockhart"
+            },
+            "reviewBody":"I added onions to the ingredients.",
+            "datePublished":"2025-10-30T22:01:30.384Z"
+         },
+         {
+            "@type":"Review",
+            "reviewRating":{
+               "@type":"Rating",
+               "ratingValue":"5"
+            },
+            "author":{
+               "@type":"Person",
+               "name":"EagerSpud3777"
+            },
+            "reviewBody":"Added furikake to the top of the casserole as well. A crowd pleaser!!",
+            "datePublished":"2025-04-29T05:08:30.135Z"
+         },
+         {
+            "@type":"Review",
+            "reviewRating":{
+               "@type":"Rating",
+               "ratingValue":"5"
+            },
+            "author":{
+               "@type":"Person",
+               "name":"GutsyStraw9708"
+            },
+            "reviewBody":"Excellent recipe! Easy and my family LOVED IT!",
+            "datePublished":"2025-04-28T00:46:40.288Z"
+         }
+      ],
+      "mainEntityOfPage":{
+         "@type":[
+            "WebPage"
+         ],
+         "@id":"https://www.allrecipes.com/salmon-sushi-bake-recipe-8765434",
+         "name":"Salmon Sushi Bake",
+         "breadcrumb":{
+            "@type":"BreadcrumbList",
+            "itemListElement":[
+               {
+                  "@type":"ListItem",
+                  "position":1,
+                  "item":{
+                     "@id":"https://www.allrecipes.com/recipes/",
+                     "name":"Recipes"
+                  }
+               },
+               {
+                  "@type":"ListItem",
+                  "position":2,
+                  "item":{
+                     "@id":"https://www.allrecipes.com/recipes/80/main-dish/",
+                     "name":"Main Dishes"
+                  }
+               },
+               {
+                  "@type":"ListItem",
+                  "position":3,
+                  "item":{
+                     "@id":"https://www.allrecipes.com/recipes/249/main-dish/casseroles/",
+                     "name":"Casserole Recipes"
+                  }
+               },
+               {
+                  "@type":"ListItem",
+                  "position":4,
+                  "item":{
+                     "@id":"https://www.allrecipes.com/recipes/413/main-dish/casseroles/seafood/",
+                     "name":"Seafood"
+                  }
+               }
+            ]
+         },
+         "reviewedBy":[
+            {
+               "@type":"Person",
+               "name":"Allrecipes Test Kitchen",
+               "url":"https://www.allrecipes.com/allrecipes-test-kitchen-7553892"
+            }
+         ]
+      }
+   }
+]
