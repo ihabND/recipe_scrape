@@ -13,7 +13,18 @@ USER_AGENT = (
 )
 
 all_links_list = []
-side_links_list = []
+
+def write_recipe_links_to_files(all_links_list):
+    try:
+        print("Writing to files...", len(all_links_list))
+
+        with open("data/dish_links.txt", "w", encoding="utf-8") as file:
+            for link in all_links_list:
+                file.write(str(link) + "\n")
+
+    except Exception as e:
+        print(f"Error while writing files! {e}")    
+
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True)
@@ -47,7 +58,8 @@ with sync_playwright() as p:
                     try:
                         period = uniform(0.5, 1.5)
                         sleep(period)
-                        page.goto(href, wait_until="domcontentloaded", timeout=60000)
+                        inner_response = page.goto(href, wait_until="domcontentloaded", timeout=60000)
+                        print("URL:", href, "Status:", inner_response.status if inner_response else "No response")
                         inner_content = BeautifulSoup(page.content(), "html.parser")
                         print("Working inner:", href)
                         inner_links_div = inner_content.find("ul", {
@@ -58,24 +70,13 @@ with sync_playwright() as p:
                             continue
                         inner_links_list = inner_links_div.find_all("a")
                         for inner_link in inner_links_list:
-                            side_links_list.append(inner_link["href"])
+                            if href not in all_links_list:
+                                all_links_list.append(href)
+
+                        write_recipe_links_to_files(all_links_list)
+                        
                     finally:
                         context.close()
     finally:
         main_context.close()
         browser.close()
-
-try:
-    for link in all_links_list:
-        print(link)
-    print(len(all_links_list))
-
-    with open("data/dish_links.txt", "w", encoding="utf-8") as file:
-        for link in all_links_list:
-            file.write(str(link) + "\n")
-
-    with open("data/inner_links.txt", "w", encoding="utf-8") as file:
-        for link in side_links_list:
-            file.write(str(link) + "\n")
-except Exception as e:
-    print(f"Error while writing files! {e}")
